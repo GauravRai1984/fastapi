@@ -21,12 +21,29 @@ Polymorphism
 
 from Enemy import *
 
-enemy = Enemy()
+# enemy = Enemy()
 
-enemy.type_of_enemy = "Zombie"
+# enemy.type_of_enemy = "Zombie"
 
-print(f"{enemy.type_of_enemy} has {enemy.health_points} health_points And can do attack of {enemy.attack_damage}")
+# enemy.talk()
+
+# enemy.walk_forward()
+
+# enemy.attack()
+
+# print(f"{enemy.type_of_enemy} has {enemy.health_points} health_points And can do attack of {enemy.attack_damage}")
+
+# ------ constructors
+
+zombie = Enemy("Zombie",1,10)
+big_zombie = Enemy("Big Zombie", 10,100)
+vampire = Enemy("Vampire")
 
 
 
 
+print(zombie.get_type_of_enemy())
+
+
+
+# ----- Encapsulation is bundling of data
