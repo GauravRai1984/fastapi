@@ -28,3 +28,17 @@ print(my_list)
 
 my_list.sort()
 print(my_list)
+
+"""
+Assignment
+"""
+
+my_zoo = ["Camel","Giraffe","Lion","Hippo","Tiger"]
+print(my_zoo)
+my_zoo.remove(my_zoo[2])
+print(my_zoo)
+my_zoo.append("Baboon")
+print(my_zoo)
+my_zoo.remove(my_zoo[0])
+print(my_zoo)
+print(my_zoo[:3])
